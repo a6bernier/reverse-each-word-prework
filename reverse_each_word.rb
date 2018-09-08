@@ -1,6 +1,6 @@
 
 def reverse_each_word(string)
-  string = strin.split(" ")
+  string = string.split(" ")
   string.collect(&:reverse!)
   string.join(" ")
 end
